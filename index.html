@@ -531,19 +531,19 @@ textarea.control{resize:vertical;min-height:92px}
 </section>
 
 <script>
-<!--Start of Tawk.to Script-->
-<script type="text/javascript">
-var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
 (function(){
-var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-s1.async=true;
-s1.src='https://embed.tawk.to/6aca5232dc7d7234c1de2107/1k4j525sl';
-s1.charset='UTF-8';
-s1.setAttribute('crossorigin','*');
-s0.parentNode.insertBefore(s1,s0);
+  var f=document.getElementById('chat-fab'),c=document.getElementById('chat');
+  if(f)f.remove();
+  if(c)c.remove();
+  window.Tawk_API=window.Tawk_API||{};
+  window.Tawk_LoadStart=new Date();
+  var s=document.createElement('script');
+  s.async=true;
+  s.src='https://embed.tawk.to/6aca5232dc7d7234c1de2107/1k4j525sl';
+  s.charset='UTF-8';
+  s.setAttribute('crossorigin','*');
+  document.head.appendChild(s);
 })();
-</script>
-<!--End of Tawk.to Script-->
   
 (function(){
   var $=function(s,r){return (r||document).querySelector(s)};
